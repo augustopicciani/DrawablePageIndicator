@@ -10,7 +10,7 @@ Drawable page indicator is compatible with ViewPager from the [Android Support L
 
 ## **Usage** ##
 
-1. In your xml layout using widget:
+1) In your xml layout using widget:
 
       		<com.augustopicciani.drawablepageindicator.widget.DrawablePagerIndicator
                   android:id="@+id/drawableIndicator"
@@ -31,7 +31,7 @@ Do not forget to add custom namespace at the root of your xml file:
           xmlns:app="http://schemas.android.com/apk/res-auto"
 
 
-2. In your main activity or fragment (*onCreate* or *onCreateView*):
+2) In your main activity or fragment (*onCreate* or *onCreateView*):
 
 	```
 	ViewPager pager = (ViewPager) findViewById(R.id.pager);
