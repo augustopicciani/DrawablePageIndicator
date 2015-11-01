@@ -33,13 +33,13 @@ Do not forget to add custom namespace at the root of your xml file:
 
 2) In your main activity or fragment (*onCreate* or *onCreateView*):
 
-	```
+
 	ViewPager pager = (ViewPager) findViewById(R.id.pager);
 	pager.setAdapter(myPagerAdapter);
 	
-  DrawablePageIndicator drawablePagerIndicator = (DrawablePagerIndicator) findViewById(R.id.drawableIndicator);
-  drawablePagerIndicator.setViewPager(pager);
- 	```  
+        DrawablePageIndicator drawablePagerIndicator = (DrawablePagerIndicator) findViewById(R.id.drawableIndicator);
+        drawablePagerIndicator.setViewPager(pager);
+
 
  	
 ## **Including in your project** ##
